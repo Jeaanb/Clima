@@ -1,2 +1,1 @@
-# Clima
-App de clima
+Aplicativo simples de previsão do tempo, desenvolvido com HTML, CSS e JavaScript, consumindo dados da API do WeatherAPI. O objetivo principal foi praticar requisições assíncronas usando fetch com async/await, tratamento de erros com try/catch, além de trabalhar com manipulação de DOM e estrutura semântica.
