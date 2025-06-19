@@ -9,7 +9,7 @@ weatherForm.addEventListener('submit', async (ev) => {
         return showAlert('É necessário digitar uma cidade...')
     }
 
-    const apiKey = '397116e9a5d71ee16c01345faf443ab1'
+    const apiKey = 'SUA_CHAVE_AQUI'
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(cityName)}&appid=${apiKey}&units=metric&lang=pt_br`
 
     try {
